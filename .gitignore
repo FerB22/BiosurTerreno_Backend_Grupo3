@@ -23,7 +23,10 @@ out/
 # VS Code
 .vscode/
 
-# Logs y archivos temporales
+# Logs, datos H2 locales y archivos temporales
+data/
+*.mv.db
+*.trace.db
 *.log
 *.tmp
 *.bak
